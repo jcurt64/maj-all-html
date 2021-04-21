@@ -1,0 +1,187 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow-x:hidden; 
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+    scroll-behavior: auto;
+    }
+}
+
+body {
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    overflow-x:hidden; 
+}
+
+.main-legal {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color:rgb(10, 45, 114);
+}
+
+.logo-mention {
+    position: relative; 
+    margin-bottom: 100px;  
+    padding-top: 90px;
+}
+
+.logo-mention img {
+    /* position: absolute; */
+    margin: 0;
+    width: 100%;
+}
+
+.logo__majelink-1 {
+    width: 55px;
+    height: 45px; 
+    margin-left: 75px; 
+    /* transition: height 4s; */
+}
+
+.mention-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-bottom: 60px;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+.politique-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color:white;
+    margin-bottom: 60px;
+    padding: 20px;
+    text-align: justify;
+    font-size: 18px;
+    text-align: center;
+}
+.condition-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color:white;
+    margin-bottom: 60px;
+    padding: 20px;
+    text-align: justify;
+    font-size: 18px;
+    text-align: center;
+}
+
+.image-ML {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+
+.image-DPD {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+
+.image-CGV {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+.title {
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+.sub-title {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.detail-mentionLegale {
+    text-align: justify;
+}
+
+.detail-politiqueDonnee {
+    text-align: justify;
+}
+
+.detail-conditionVente{
+    text-align: justify;
+}
+
+.logo-detail img {
+    width:30px;
+    height:30px;
+}
+
+.title-detail {
+    font-weight: bold;
+}
+
+.footer-legale {
+height: 120px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(35, 37, 74);
+}
+
+.copyright {
+    color: rgb(184, 184, 197);
+    font-weight: lighter;
+    font-style: italic;
+}
+
+@media screen and (max-width: 362px) {
+    .image-ML {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .image-DPD {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .image-CGV {
+        width: 200px;
+        height: 200px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+    .sub-title {
+        font-size: 13px;
+    }
+
+    .detail-mentionLegale {
+        font-size: 15px;
+    }
+    .detail-politiqueDonnee {
+        font-size: 15px;
+    }
+    .detail-conditionVente {
+        font-size: 15px;
+    }
+
+    .copyright {
+        font-size: 13px;
+    }
+}
+
+
